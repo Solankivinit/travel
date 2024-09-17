@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+.content{
+    position: fixed;
+    background: #fff;
+    box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    color: #fff;
+    background-color: #000;
+    width: 12%; 
+    height: 70px;
+    margin-left: 80px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.navbar{
+    width: 40%;
+    margin-left: 550px;
+}
+.navbar a{
+    position: relative;
+    bottom: 68px;
+    color: #000;
+    padding: 12px;
+    text-decoration: none;
+}
+.button{
+    position: relative;
+    bottom: 68px;
+    width: 25%;
+    height: 50px;   
+    border: 2px solid orange;
+    background: orange;
+    color: #fff;
+    border-radius: 4px;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+}
+h1{
+    font-size: 60px;
+    color: #fff;
+}
+.about{
+    text-align: center;
+    margin-top: -330px;
+}
+.contain{
+    text-align: center;
+}
+.contain a{
+    color: #fff;
+    text-decoration: none;
+}
+.h1{
+    font-size: 40px;
+    padding-left: 750px;
+    padding-top: 320px;
+}
+.p{
+    padding-left: 750px;
+}
+.button2{
+    margin-top: 10px;
+    margin-left: 750px;
+    width: 15%;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid orange;
+    font-size: 17px;
+    background: orange;
+    color: #fff;
+}
+.icon{
+    margin-top: -400px;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 20px;
+}
+.p1{
+    margin-left: 20px;
+}
+.icon1{
+    margin-top: -300px;
+    margin-left: 300px;
+}
+h3{
+    margin-left: 300px;
+}
+.p2{
+    margin-left: 300px;
+}
+.icon2{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+}
+.p3{
+    margin-left: 20px;
+}
+.icon3{
+    margin-top: -280px;
+    margin-left: 300px;
+}
+h5{
+    margin-left: 300px;
+}
+.p4{
+    margin-left: 300px;
+}
+.picture img{
+    margin-top: 80px;
+    margin-left: 130px;
+    width: 40%;
+    height: 505px;
+}
+.h6 h6{
+    margin-left: 710px;
+    margin-top: -400px;
+    font-size: 40px;
+}
+.sec{
+    margin-left: 710px;
+    margin-top: 10px;
+}
+.num{
+    margin-left: 720px;
+    margin-top: 20px;
+}
+.num a{
+    color: orange;
+    font-size: 35px;
+    padding: 55px;
+    text-decoration: none;
+}
+.num-sec{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.num-sec a{
+    font-size: 20px;
+    padding: 33px;
+    text-decoration: none;
+    color: #000;
+}
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    [class*="content-"] {
+      width: 100%;
+    }
+  }
+.section{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 140px;
+}
+.card-col{
+    background: lightblue;
+}
+.card-body{
+    height: 262px;
+    margin-top: 20px;
+    padding-left: 10px;
+    background: white;
+    color: #999999;
+    width: 28%;
+    margin-left: 40px;
+}
+.card-body p{
+    font-size: 18px;
+    margin-top: -8px;
+}
+.card-body img{
+    height: 90px;
+}
+.text7{
+    padding-left: 150px;
+}
+.text7 p{
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+    margin-top: -95px;
+}
+p1{
+    position: relative;
+    bottom: 30px;
+    color: #999999;
+    font-size: 20px;
+    padding-left: 150px;
+}
+.card-body1{
+    position: relative;
+    bottom: 246px;
+    height: 246px;
+    margin-top: -5px;
+    padding-left: 10px;
+    background: white;
+    color: #999999;
+    width: 28%;
+    margin-left: 443px;
+    padding-top: 20px;
+}
+.card-body1 p{
+    font-size: 18px;
+}
+.card-body1 img{
+    height: 90px;
+}
+.text8{
+    font-size: 20px;
+    position: relative;
+    bottom: 140px;
+    margin-top: -200px;
+    padding-left: 550px;
+}
+.text9{
+    font-size: 20px;
+    position: relative;
+    bottom: 138px;
+    padding-left: 550px;
+    color: #999999;
+}
+.card-body2{
+    position: relative;
+    bottom: 346px;
+    height: 246px;
+    margin-top: -5px;
+    padding-left: 10px;
+    background: white;
+    color: #999999;
+    width: 28%;
+    margin-left: 843px;
+    padding-top: 18px;
+}
+.card-body2 p{
+    padding-top: -70px;
+    font-size: 18px;
+}
+.card-body2 img{
+    height: 90px;
+}
+.text10{
+    font-size: 20px;
+    position: relative;
+    bottom: 235px;
+    margin-top: -200px;
+    padding-left: 955px;
+}
+.text11{
+    font-size: 20px;
+    position: relative;
+    bottom: 230px;
+    padding-left: 955px;
+    color: #999999;
+}
+.footer{
+    position: relative;
+    bottom: -85px;
+    padding-left: 60px;
+    font-size: 40px;
+    color: #fff;
+}
+.footer1{
+    padding-left: 515px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+}
+.footer1 div{
+    padding: 47px;
+    font-size: 28px;
+}
+.footer2{
+    position: relative;
+    bottom: 5px;
+    padding-left: 60px;
+    font-size: 20px;
+    color: #fff;
+    background: #000;
+}
+.img{
+    background: #000;
+    height: 200px;
+    margin-top: -5px;
+    padding-left: 60px;
+}
+.img img{
+    padding: 5px;
+    position: relative;
+    bottom: -70px;
+    height: 110px;
+    width: 8%;
+}
+.cont{
+    position: relative;
+    bottom: 380px;
+    padding-left: 540px;
+}
+.cont div{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.main-cont{
+    position: relative;
+    bottom: 680px;
+    padding-left: 780px;
+}
+.main-cont div{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.have{
+    position: relative;
+    bottom: 408px;
+    color: #fff;
+    margin-top: -570px;
+    margin-left: 1020px;
+}
+.no{
+    position: relative;
+    bottom: 395px;
+    color: #fff;
+    margin-left: 1010px;
+}
+.email{
+    position: relative;
+    bottom: 378px;
+    color: #fff;
+    margin-left: 1010px;
+}
+.copy{
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+    text-align: center;
+    background: #000;
+    height: 120px;
+    color: #fff;
+    margin-top: -115px;
+    padding-top: 30px;
+}
+/* Extra small devices (phones, less than 320px or 480px) */
+/* No media query since this is the default in Bootstrap */

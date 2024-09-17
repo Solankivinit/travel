@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+.bg-img{
+    background-image: url("image.png");
+    min-height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: ease-in-out;
+}
+.content{
+    position: fixed;
+    scrollbar-color: #000;
+}
+.logo{
+    background: #000;
+    color: #fff;
+    width: 18%;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-top: 17px;
+    height: 80px;
+}
+.navbar{
+    margin-left: 580px;
+    margin-top: -130px;
+    height: 190px;
+    transition: top 0.3s;
+} 
+.navbar a{
+    float: left;
+    display: block;
+    color: #fff;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+.navbar a:hover{
+    color: black;
+}
+.img{
+    justify-content: center;
+    text-align: center;
+}
+.image img{
+    padding: 90px;
+    margin-top: 110px;
+}
+.button{
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.button:hover{
+    color: #000;
+}
+.about{
+    padding-top: 295px;
+    text-align: center;
+}
+.about h1{
+    color: #fff;
+    font-size: 60px;
+}
+.contain{
+    margin-top: 20px;
+    text-align: center;
+}
+.contain a{
+    text-decoration: none;
+    color: #fff;
+}
